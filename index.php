@@ -19,6 +19,11 @@ $body = '<html lang="en">
             <li><a href="homework_1/1-5.php"> Задание 1-5</a></li>
         </ul>
     </li>
+    <li> Доманняя работа 2
+        <ul>
+            <li><a href="homework_2/2-1.php"> Задание 2-1</a></li>
+        </ul>
+    </li>
     </ul>
 <div>
 <span>Кстати сейчас '.$year.' год </span></div>
