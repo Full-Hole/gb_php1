@@ -37,5 +37,6 @@ switch($a){
         break;
     default:
         echo 'Кто то свернул не туда';
+        break;
 }
 ?>
