@@ -23,7 +23,7 @@ function get_time()
     $text_time .= $min;
     if ($m_mod == 1 && $min != 11)
         $text_time .= ' минута';
-    else if ($m_mod < 5 && ($min < 12 || $min > 14) && $m_mod!=0)
+    else if ($m_mod < 5 && $min > 21 && $m_mod!=0)
         $text_time .= ' минуты';
     else
         $text_time .= ' минут';
