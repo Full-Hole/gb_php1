@@ -30,6 +30,11 @@ $body = '<html lang="en">
             <li><a href="homework_2/2-7.php"> Задание 2-7</a></li>
         </ul>
     </li>
+    <li> Доманняя работа 3
+        <ul>
+            <li><a href="homework_3/3-1.php"> Задание 3-1</a></li>
+        </ul>
+    </li>
     </ul>
 <div>
 <span>Кстати сейчас '.$year.' год </span></div>
