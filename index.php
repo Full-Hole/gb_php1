@@ -33,6 +33,7 @@ $body = '<html lang="en">
     <li> Доманняя работа 3
         <ul>
             <li><a href="homework_3/3-1.php"> Задание 3-1</a></li>
+            <li><a href="homework_3/3-2.php"> Задание 3-2</a></li>
         </ul>
     </li>
     </ul>
