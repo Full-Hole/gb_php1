@@ -34,6 +34,7 @@ $body = '<html lang="en">
         <ul>
             <li><a href="homework_3/3-1.php"> Задание 3-1</a></li>
             <li><a href="homework_3/3-2.php"> Задание 3-2</a></li>
+            <li><a href="homework_3/3-3.php"> Задание 3-3</a></li>
         </ul>
     </li>
     </ul>
