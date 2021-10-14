@@ -11,7 +11,7 @@ $body = '<html lang="en">
     <title>'.$title.'</title>
 </head>
 <body>'.$h1.'<ul>
-    <li> Доманняя работа 1
+    <li> Домашняя работа 1
         <ul>
             <li><a href="homework_1/1-2.php"> Задание 1-2</a></li>
             <li><a href="homework_1/1-3.php"> Задание 1-3</a></li>
@@ -19,7 +19,7 @@ $body = '<html lang="en">
             <li><a href="homework_1/1-5.php"> Задание 1-5</a></li>
         </ul>
     </li>
-    <li> Доманняя работа 2
+    <li> Домашняя работа 2
         <ul>
             <li><a href="homework_2/2-1.php"> Задание 2-1</a></li>
             <li><a href="homework_2/2-2.php"> Задание 2-2</a></li>
