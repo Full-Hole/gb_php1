@@ -35,3 +35,4 @@ createList($dataList)
 <span>Кстати сейчас $year год </span></div>
 </body>
 </html>";
+echo $body;
