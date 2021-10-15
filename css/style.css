@@ -1,0 +1,25 @@
+.gallery-wrapper{
+    margin: 0 auto;
+    width: 800px;
+    display:flex;
+    align-items: center;
+}
+.gallery-viewport{
+    width: 500px;
+    border: 1px solid red;
+    height: 500px;
+}
+.gallery{    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.gallery-img{
+    width: 200px;
+    display: block;
+    border: 1px solid black;
+}
+.gallery-item{
+    margin: 5px;
+}

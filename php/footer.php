@@ -1,6 +1,6 @@
 <?php
-
+$year = date('Y');
 echo "
-    <footer>Fuuuuuuter</footer>
+    <footer>Кстати сейчас $year год</footer>
 </body>
 </html>";
