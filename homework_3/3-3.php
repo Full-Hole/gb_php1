@@ -13,15 +13,24 @@ $state_array = [
     'Рязанская область' => []
 ];
 
-foreach($state_array as $key => $val){
+foreach ($state_array as $key => $val) {
     echo "$key: ";
-    
-    if(count($val)==0) //Просто потому что было влом искать города в рязани.
+
+    if (count($val) == 0) //Просто потому что было влом искать города в рязани.
         echo '… (названия городов можно найти на <a href="https://maps.yandex.ru">maps.yandex.ru)</a>';
     else
-        foreach($val as $city){
-            echo "$city, ";
+        //Простое, но проблемы с запятыми
+        // foreach($val as $city){
+        //     echo "$city, ";
+        // }
+        for ($i = 0; $i < count($val); $i++) {
+
+            echo "$val[$i]";
+
+            if ($i == count($val) - 1)
+                echo '.';
+            else
+                echo ', ';
         }
     echo "<br/>";
 }
-
