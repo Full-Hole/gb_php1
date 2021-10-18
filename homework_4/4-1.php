@@ -14,14 +14,14 @@ function placeImage($imglist){
 }
 $imglist=['img1.jpg','img2.jpg','img3.jpg','img4.jpg','img5.jpg','img6.jpg'];
 
-echo '<div></div>';
+
 ?>
 <div class="gallery-wrapper">
 <div class="gallery">
 <?php placeImage($imglist);?>
 </div>
 <div class="gallery-viewport">
-  
+
 </div>
 </div>
 
