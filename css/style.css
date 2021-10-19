@@ -31,6 +31,20 @@
     border: 1px solid black;
     margin: 5px;
 }
+.fullpage-img{
+    max-height: 90vh;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.fullpage-img-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;    
+}
 .gallery-item{
     margin: 5px;
 }
@@ -45,4 +59,7 @@
     width: 100%;
     display: block;
 
+}
+.img-views{
+    margin-top: 20px;
 }
