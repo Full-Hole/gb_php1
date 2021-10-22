@@ -1,0 +1,48 @@
+.gallery-wrapper{
+    margin: 0 auto;
+    width: 800px;
+    display:flex;
+    align-items: center;
+}
+.gallery-viewport{
+    width: 500px;
+
+}
+.gallery-viewport-fullscreen{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2a2a2ac9;
+}
+.gallery{    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.gallery-img{
+    width: 200px;
+    display: block;
+    border: 1px solid black;
+    margin: 5px;
+}
+.gallery-item{
+    margin: 5px;
+}
+.vieport-wrapper{
+    width: 500px;
+}
+.vieport-wrapper-fullscreen{
+    height: 80%;
+}
+.viewport{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}

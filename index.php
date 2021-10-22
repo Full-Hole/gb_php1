@@ -17,6 +17,7 @@ $dataList =[
     1 => [2,3,4,5],
     2 => [1,2,3,4,5,6,7],
     3 => [1,2,3,4,5,6,7,8,9],
+    4 => [1,2,3]
 
 ];
 $year = date('Y');
@@ -32,6 +33,7 @@ $body = "<html lang=\"en\">
 <body>$h1".
 createList($dataList)
 ."<div>
+<a href='../php/test.php'> Задание 0</a><br/></li>
 <span>Кстати сейчас $year год </span></div>
 </body>
 </html>";
