@@ -63,3 +63,41 @@
 .img-views{
     margin-top: 20px;
 }
+.calc_form{
+    margin: 0 auto;
+    width: 385px;
+    border: 10px ridge;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.oper_select{
+    font-size: 32pt;
+    height: 50px;
+    margin: 10px;
+    width: 100%;
+}
+.num_list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    width: 250px;
+    justify-content: space-around;
+}
+.operator_list{
+    display: flex;
+    flex-direction: column;
+}
+.numbutton, .oper_button{
+    width: 50px;
+    height: 50px;
+    font-size: 32pt;
+    margin: 10px;
+}
+.calc_input{
+    margin: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 32pt;
+    padding: 0 10px;
+}
