@@ -134,3 +134,59 @@
     font-size: 32pt;
     padding: 0 10px;
 }
+.home_link{
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    /* height: 25px; */
+    background-color: lightgray;
+    text-align: center;
+    padding: 6px 0;
+    margin: 10px;
+}
+.home_link:hover{
+    background-color: darkgray;
+}
+.review_list{
+    margin: 0 auto;
+    border:1px solid black;
+    height: 300px;
+    width: 400px;
+    background-color: darkgray;
+    overflow: auto;
+    margin-bottom: 10px;
+    
+}
+.new_review_form{
+    margin: 0 auto;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.review_wrapper{
+    background-color: beige;
+    margin: 5px;
+    padding: 10px;
+}
+.review_author, .review_author_mail{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.review_author::before{
+    content: "Автор: ";
+
+}
+.review_author_mail::before{
+    content: "E-mail: ";
+}
+.review_text{
+    background-color: white;
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
