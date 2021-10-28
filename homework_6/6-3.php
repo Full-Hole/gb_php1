@@ -35,7 +35,7 @@ function addReview($db, $author, $email, $review, $cred_hide){
 }
 
 function checkPost($data){
-    if (empty($_POST))
+    if (empty($data))
         return 0;
     if(empty($data["author_name"]))
         return 0;
