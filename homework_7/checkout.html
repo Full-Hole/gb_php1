@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-body">
+            <a href="#" class="logo-link"><img src="img/Logo.png" alt="Logo" class="logo">
+                <span class="logo-link-name">bran<span class="last-letter">d</span></span></a>
+            <form action="#" class="search-form">
+                <button class="select-btn"><span class="select-btn-text">Browse</span><i class="fas fa-caret-down select-btn-caret"></i></button><input type="text" class="search-field" placeholder="Search for Item..."><button class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="account-section">
+                <button class="shoping-cart"><svg class="shoping-cart-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29" width="32" height="29">	
+			<path d="M1.18 2.36L4.58 2.36L9.41 19.82C9.55 20.33 10.02 20.69 10.55 20.69L25.41 20.69C25.88 20.69 26.3 20.41 26.49 19.98L31.9 7.56C32.06 7.19 32.02 6.78 31.8 6.44C31.58 6.11 31.21 5.91 30.81 5.91L14.4 5.91C13.75 5.91 13.22 6.44 13.22 7.09C13.22 7.74 13.75 8.27 14.4 8.27L29 8.27L24.62 18.32L11.44 18.32L6.61 0.87C6.47 0.35 6 0 5.46 0L1.18 0C0.53 0 0 0.53 0 1.18C0 1.83 0.53 2.36 1.18 2.36ZM9.43 29C10.91 29 12.11 27.8 12.11 26.32C12.11 24.84 10.91 23.64 9.43 23.64C7.95 23.64 6.75 24.84 6.75 26.32C6.75 27.8 7.95 29 9.43 29ZM26.2 29C26.26 29 26.34 29 26.39 29C27.11 28.94 27.76 28.63 28.23 28.07C28.7 27.54 28.92 26.85 28.88 26.12C28.78 24.67 27.5 23.54 26.02 23.64C24.54 23.74 23.44 25.04 23.53 26.5C23.63 27.9 24.8 29 26.2 29Z" /></svg></button>
+                <button class="my-account-btn"><span class="my-account-btn-text">My&nbsp;Account</span><i class="fas fa-caret-down my-account-btn-caret"></i></button>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <a href="index.html" class="main-nav-link">home</a>
+        <a href="product.html" class="main-nav-link">man</a>
+        <a href="singlepage.html" class="main-nav-link">women</a>
+        <a href="#" class="main-nav-link main-nav-link_active">kids</a>
+        <a href="shoppingcart.html" class="main-nav-link">accoseriese</a>
+        <a href="#" class="main-nav-link">featured</a>
+        <a href="#" class="main-nav-link">hot deals</a>
+    </nav>
+    <section class="breadcrumbs-block">
+        <div class="breadcrumbs-wrapper container">
+            <h2 class="breadcrumbs-title">new arrivals</h2>
+            <ul class="breadcrumbs-list">
+                <li class="breadcrumb"><a href="index.html" class="breadcrumbs-link">Home</a></li>
+                <li class="breadcrumb"><a href="product.html" class="breadcrumbs-link">Men</a></li>
+                <li class="breadcrumb">New Arrivals</li>
+            </ul>
+        </div>
+    </section>
+    <main class="page-main container">
+        <ol class="ordering">
+            <li class="ordering-step"><span class="ordering-step-title">shipping address</span>
+                <div class="shipping-address-wrapper">
+                    <form class="shipping-address-block">
+                        <span class="ordering-step-subtitle">Check as&nbsp;a&nbsp;guest or&nbsp;register</span>
+                        <span class="register-offer">Register with&nbsp;us for future convenience</span>
+                        <div class="check-radio-wrapper">
+                            <label for="r1" class="check-choise-label"><input type="radio" id="r1" class="check-choise" name="choise" value="1">checkout as&nbsp;guest</label>
+                            <label for="r2" class="check-choise-label"><input type="radio" id="r2" class="check-choise" name="choise" value="2">register</label>
+                        </div>
+                        <span class="register-save-offer">register and save time!</span>
+                        <span class="register-offer">Register with&nbsp;us for future convenience</span>
+                        <div class="register-feature-wrapper">
+                            <span class="register-feature"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</span>
+                            <span class="register-feature"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to&nbsp;your order history and status</span>
+                        </div>
+                        <button class="checkout-continue">continue</button>
+
+                    </form>
+                    <form class="shipping-address-block">
+                        <span class="ordering-step-subtitle">Already registed?</span>
+                        <span class="register-offer">Please log in&nbsp;below</span>
+                        <label for="email" class="credential-label">email address <span class="asterisk">*</span>
+                            <input type="email" class="credential-email" id="email">
+                        </label>
+                        <label for="password" class="credential-label">password <span class="asterisk">*</span>
+                            <input type="password" class="credential-password" id="password">
+                        </label>
+                        <span class="footnote">* Required Fileds</span>
+                        <button class="checkout-continue">Log in</button>
+                        <a href="#" class="password-recover">Forgot Password ?</a>
+                    </form>
+                </div>
+            </li>
+            <li class="ordering-step"><span class="ordering-step-title">BILLING INFORMATION</span></li>
+            <li class="ordering-step"><span class="ordering-step-title">SHIPPING INFORMATION</span></li>
+            <li class="ordering-step"><span class="ordering-step-title">SHIPPING METHOD</span></li>
+            <li class="ordering-step"><span class="ordering-step-title">PAYMENT METHOD</span></li>
+            <li class="ordering-step"><span class="ordering-step-title">ORDER REVIEW</span></li>
+        </ol>
+
+    </main>
+    <div class="subscribe-section">
+        <div class="subscribe-content container">
+            <div class="subscribe-comment-wrapper">
+
+                <article class="subscribe-comment">
+                    <img src="img/commentlady.jpg" alt="subscriber" class="subscriber-foto">
+                    <span class="comment-quote">&#8220;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium&quot;</span>
+                    <h2 class="comment-author">Bin Burhan</h2>
+                    <span class="comment-author-loc">Dhaka, Bd</span>
+                </article>
+                <div class="comment-nav">
+                    <a href="#" class="comment-nav-link"></a>
+                    <a href="#" class="comment-nav-link comment-nav-link-active"></a>
+                    <a href="#" class="comment-nav-link"></a>
+                </div>
+            </div>
+            <div class="subscribe-form">
+                <span class="subscribe-title">Subscribe</span>
+                <span class="subscribe-offer">FOR OUR NEWLETTER AND PROMOTION</span>
+                <input type="email" class="subscribe-email focus-outline__fix" placeholder="Enter Your Email"><button class="subscribe-btn focus-outline__fix">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-section">
+        <div class="footer-top container">
+            <div class="about-brand">
+                <a href="#" class="logo-link"><img src="img/Logo.png" alt="Logo" class="logo">
+                    <span class="logo-link-name">bran<span class="last-letter">d</span></span></a>
+                <div class="about-brand-text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.</div>
+                <div class="about-brand-text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</div>
+            </div>
+            <div class="about-company footer-category">
+                <h2 class="content-header">company</h2>
+                <a href="#" class="footer-content-link">Home</a>
+                <a href="#" class="footer-content-link">Shop</a>
+                <a href="#" class="footer-content-link">About</a>
+                <a href="#" class="footer-content-link">How It&nbsp;Works</a>
+                <a href="#" class="footer-content-link">Contact</a>
+            </div>
+            <div class="company-information footer-category">
+                <h2 class="content-header">information</h2>
+                <a href="#" class="footer-content-link">Tearms &amp;&nbsp;Condition</a>
+                <a href="#" class="footer-content-link">Privacy Policy</a>
+                <a href="#" class="footer-content-link">How to&nbsp;Buy</a>
+                <a href="#" class="footer-content-link">How to&nbsp;Sell</a>
+                <a href="#" class="footer-content-link">Promotion</a>
+            </div>
+            <div class="shop-category footer-category">
+                <h2 class="content-header">shop category</h2>
+                <a href="#" class="footer-content-link">Men</a>
+                <a href="#" class="footer-content-link">Women</a>
+                <a href="#" class="footer-content-link">Child</a>
+                <a href="#" class="footer-content-link">Apparel</a>
+                <a href="#" class="footer-content-link">Brows All</a>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="bottom-footer-wrapper container">
+                <span class="copyright">&copy;&nbsp;2017 Brand All Rights Reserved.</span>
+                <div class="social-link-wrapper">
+                    <a href="#" class="social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body></html>
