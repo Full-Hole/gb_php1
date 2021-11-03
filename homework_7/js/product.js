@@ -3,7 +3,7 @@ const products = {
         return {
             products: [],
             searchResult: [],
-            catalogUrl: '/homework_7/7-1.php',
+            catalogUrl: '/homework_7/7-1.php?data=1',
         }
       },
       methods: {
@@ -14,10 +14,10 @@ const products = {
                     //     this.products.push(Object.assign({img: `https://picsum.photos/id/${item.id_product}/260/280`}, item));
                     //     this.searchResult.push(Object.assign({img: `https://picsum.photos/id/${item.id_product}/260/280`}, item));
                     // }
-                    console.log(typeof data);               
+                    //console.log(typeof data);               
                     if (data) {
                         this.products = this.products.concat(data);
-                        console.log(this.products);
+                        //console.log(this.products);
                         this.searchResult = this.searchResult.concat(data);
                     }
 

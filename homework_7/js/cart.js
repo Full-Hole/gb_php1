@@ -29,7 +29,7 @@ const cart = {
         return {
             imgCart: 'https://placehold.it/50x100',
             addToBasketUrl: '/api/checkcart',
-            cartUrl: '/homework_7/cart.php',
+            cartUrl: '/homework_7/7-1.php?data=2',
             cartItems: [],
             isVisibleCart: false,
             

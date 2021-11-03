@@ -1,6 +1,61 @@
 <?php
+$data = '';
+$row = date("H:i:s") . " 7-1 ";
+if (!empty($_GET)) {
+  if (isset($_GET["data"]) && !empty($_GET["data"])) {
+    switch ($_GET["data"]) {
+      case '1':
+        $data = getProduct();
+        break;
+      case '2':
+        $data = getCart();
+        break;
+      default:
+        $data = "{}";
+    }
+    $row .= json_encode($_GET) . "\n";
+    file_put_contents("test.txt", $row, FILE_APPEND);
+  } else {
+    $row .= "not set \n";
+    file_put_contents("test.txt", $row, FILE_APPEND);
+    $data = '{}';
+  }
+}
 
-$data = '[
+
+
+header('Content-Type: application/json; charset=utf-8');
+echo $data;
+
+
+
+function getCart()
+{
+  return '{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "T-SHIRT with print",
+            "price": 50,
+            "img": "img/f-item1.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Red Something",
+            "price": 183,
+            "img": "img/f-item2.jpg"
+        }
+    ]
+  }';
+}
+
+function getProduct()
+{
+  return '[
     {
       "id_product": 1,
       "product_name": "T-SHIRT with print",
@@ -50,5 +105,4 @@ $data = '[
       "img": "img/f-item8.jpg"
     }
   ]';
-header('Content-Type: application/json; charset=utf-8');
-echo $data;
+}
