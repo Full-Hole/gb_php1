@@ -138,3 +138,5 @@ function doFeedbackAction($data, $db){
 </body>
 
 </html>
+<?php
+mysqli_close($db);

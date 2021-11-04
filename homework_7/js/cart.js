@@ -29,7 +29,7 @@ const cart = {
         return {
             imgCart: 'https://placehold.it/50x100',
             addToBasketUrl: '/api/checkcart',
-            cartUrl: '/homework_7/7-1.php?data=2',
+            cartUrl: '/homework_7/7-1.php',
             cartItems: [],
             isVisibleCart: false,
             
@@ -38,7 +38,7 @@ const cart = {
       components: {'cart-item': cartItem},
       methods: {
         loadCart() {
-            this.$parent.getJson(`${API + this.cartUrl}`)
+            this.$parent.getJson(`${API + this.cartUrl}?data=2`)
                 .then(data => {
                     if (data) {
                         this.cartItems = this.cartItems.concat(data.contents);

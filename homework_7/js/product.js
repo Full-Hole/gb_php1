@@ -3,12 +3,12 @@ const products = {
         return {
             products: [],
             searchResult: [],
-            catalogUrl: '/homework_7/7-1.php?data=1',
+            catalogUrl: '/homework_7/7-1.php',
         }
       },
       methods: {
         loadProducts(url) {
-            this.$parent.getJson(url)
+            this.$parent.getJson(`${url}?data=1`)
                 .then(data => {
                     // for (let item of data){
                     //     this.products.push(Object.assign({img: `https://picsum.photos/id/${item.id_product}/260/280`}, item));
