@@ -4,6 +4,10 @@
     foreach($listData as $list => $exercise){
       $htmlList.="<li> Домашняя работа №$list<ul>";
           foreach($exercise as $number){
+            if(!is_numeric($number)){
+              $htmlList.="<li><a href='../homework_$list/$number.php'> Задание $number</a></li>";
+              continue;
+            }
               $htmlList.="<li><a href='../homework_$list/$list-$number.php'> Задание $list-$number</a></li>";
           }
 
@@ -18,9 +22,10 @@ $dataList =[
     2 => [1,2,3,4,5,6,7],
     3 => [1,2,3,4,5,6,7,8,9],
     4 => [1,2,3],
-    5 => ["1-4"],
-    6 => [1,2,"2-2",3,4,5],
-    7 => [1,2,3],
+    5 => ["5-1-4"],
+    6 => [1,2,"6-2-2",3,4,5],
+    7 => [1,2,"index"],
+    8 => ["public/index"]
 
 ];
 $year = date('Y');
