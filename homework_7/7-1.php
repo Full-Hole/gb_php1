@@ -82,9 +82,9 @@ function getProduct(mysqli $db)
     },';
 
   }
-  $prod_json.=']';
-  echo $prod_json;
-  return $prod_json;
+ // $prod_json.=']';
+  //echo;
+  return  substr_replace($prod_json, ']', -1);
   //file_put_contents("test_prod.txt", $prod_json);
   return '[
     {
